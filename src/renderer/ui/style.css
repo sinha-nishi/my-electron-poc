@@ -121,6 +121,66 @@ body {
   position: relative;
   border-radius: 20px;
 }
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.meta > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.meta .stat {
+  font-size: 14px;
+  color: #444;
+}
+
+.icon {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.stat {
+  display: flex;
+  gap: 6px; /* icon aur number ke beech space */
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1; /* text ki height fix kar do */
+}
+
+.stat .icon {
+  font-size: 1.2rem; /* icons ka ek consistent size */
+  flex-shrink: 0; /* icon compress na ho */
+}
+
+/* Icon Styling */
+/* .icon {
+  font-size: 1.1rem;
+} */
+
+.user-icon {
+  color: #2563eb;
+}
+
+.heart-icon {
+  color: #e11d48;
+}
+
+.bookmark-icon {
+  color: #6b7280;
+  transition: color 0.3s ease;
+}
+
+.bookmark-icon:hover {
+  color: #111827;
+}
 
 /* Badges */
 .badge {
