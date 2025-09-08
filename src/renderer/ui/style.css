@@ -15,7 +15,7 @@ body {
 /* Containers */
 .container {
   width: 92%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
   margin-top: 28px;
 }
@@ -212,10 +212,10 @@ body {
 /* Categories */
 .category-row {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
   /* flex-wrap: wrap; */
-  gap: 16px;
-  margin-top: 28px;
+  /* gap: 16px;
+  margin-top: 28px; */
 }
 /* 
   .tile {

@@ -4,6 +4,7 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  background: linear-gradient(180deg, #f9f6f3 0%, #f2ece7 40%, #e6e0f1 100%);
 }
 :root {
   color-scheme: light dark;

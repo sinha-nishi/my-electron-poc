@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import { FiSearch } from "react-icons/fi";
 
 const Nav = () => (
   <nav className="nav card">
     <div className="nav-inner">
       {/* Brand */}
-      <div className="brand"><Link to="/">SocialScape</Link></div>
+      <div className="brand">
+        <Link to="/">SocialScape</Link>
+      </div>
 
       {/* Navigation Links */}
       <div className="nav-links">
@@ -21,8 +24,8 @@ const Nav = () => (
         <Link className="link-btn" to="/login">
           Login
         </Link>
-        <Link className="link-btn" to="/search">
-          🔍
+        <Link  to="/search">
+          <FiSearch size={20} /> {/* ✅ React Icon */}
         </Link>
       </div>
     </div>
